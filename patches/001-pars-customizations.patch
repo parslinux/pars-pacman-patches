@@ -5,7 +5,7 @@
  #GPGDir      = /etc/pacman.d/gnupg/
  
 -#HoldPkg     = pacman glibc
-+HoldPkg     = pars glibc systemd linux linux-firmware gcc-runtime
++HoldPkg     = pacman glibc systemd linux linux-firmware gcc-runtime
  
  #XferCommand = /usr/bin/curl -L -C - -f %u -o %o
  #XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
