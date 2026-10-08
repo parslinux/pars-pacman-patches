@@ -1,0 +1,11 @@
+--- a/etc/pacman.conf
++++ b/etc/pacman.conf
+@@ -10,7 +10,7 @@
+ #HookDir     = /etc/pacman.d/hooks/
+ #GPGDir      = /etc/pacman.d/gnupg/
+ 
+-#HoldPkg     = pacman glibc
++HoldPkg     = pars glibc systemd linux linux-firmware gcc-runtime
+ 
+ #XferCommand = /usr/bin/curl -L -C - -f %u -o %o
+ #XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
